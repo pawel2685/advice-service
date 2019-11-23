@@ -23,6 +23,6 @@
 <!--        <location>/WEB-INF/views/jsp/error.jsp</location>-->
 <!--    </error-page>-->
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 </web-app>
