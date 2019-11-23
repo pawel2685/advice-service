@@ -10,29 +10,37 @@
     <meta name="author" content="Paweł Magda" />
     <meta name="robots" content="All" />
     <meta name="description" content="Simple Advice Service" />
-<%--    <meta name="keywords" content="junior dev, programista, html5, css3, bootstrap, JavaScript, JQuery, JQueryUI" />--%>
     <meta name="rating" content="General" />
     <!--jQuery-->
-    <script src="plugins/jquery/jquery.js"></script>
-    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="../static/jquery/jquery.js"></script>
+    <script src="../static/jquery/jquery.min.js"></script>
     <!--JavaScript-->
-    <script src="js/main.js"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="../static/js/main.js"></script>
     <!-- bootstrap-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
     <!--moje pliki-->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/animate.css">
 </head>
 <body>
-    <table align="center">
-        <tr>
-            <td><a href="login">Login</a></td>
-            <td><a href="register">Register</a></td>
-        </tr>
-    </table>
+<header class="sekcja" data-type="s1" id="ss1">
+    <div class="container">
+        <div id="hiddenMenu">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+        <div id="navigacja">
+            <h1><span class="color">Advice</span> Service</h1>
+        </div>
+        <nav class="sticky">
+            <ul class="lista">
+                <li class="li li_avtive" id="s1">Login</li>
+                <li class="li" id="s2">Register</li>
+            </ul>
+        </nav>
+    </div>
+</header>
 </body>
 </html>

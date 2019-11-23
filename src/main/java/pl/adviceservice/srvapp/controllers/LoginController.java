@@ -2,16 +2,14 @@ package pl.adviceservice.srvapp.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class MainController {
-    @RequestMapping(value = {"/", "/index"}, method = RequestMethod.GET)
-    public String SpringBootIndex(Model model) {
+public class LoginController {
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String SpringBootLogin(Model model) {
         model.addAttribute("title", "Welcome");
-        return "index" ;
+        return "login";
     }
 }
